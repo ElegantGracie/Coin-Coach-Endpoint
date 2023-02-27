@@ -1,6 +1,6 @@
 const express = require('express')
 const { receiveMail } = require('../controllers/sendMessage.js')
-const { signup, signin } = require('../controllers/userControls.js')
+const { signup, signin, signout } = require('../controllers/userControls.js')
 // const { verifyAuth } = require('../middleware/auth.js')
 
 const routemanager = express.Router()
@@ -10,6 +10,8 @@ const routemanager = express.Router()
 routemanager.post('/signup', signup)
 
 routemanager.post('/signin', signin)
+
+routemanager.post('/signout', signout)
 
 routemanager.post('/contactus', receiveMail)
 

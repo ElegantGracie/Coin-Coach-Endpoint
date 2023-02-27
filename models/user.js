@@ -19,15 +19,4 @@ const User = sequelize.define('user', {
     }
 });
 
-// const Profile = Sequelize.define('profile', {
-//     profileId: {
-//         type: Sequelize.INTEGER,
-//         autoIncrement: true,
-//         allowNull: false
-//     },
-//     profileImg: {
-//         type: Sequelize.BLOB
-//     }
-// })
-
 module.exports = { User }
