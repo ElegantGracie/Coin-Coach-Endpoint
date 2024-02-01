@@ -15,16 +15,16 @@ const port = process.env.PORT || 3000
 app.use(cors())
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: false}))
-// app.use(cookieParser)
+app.use(cookieParser())
 
-app.use('/', routemanager)
+app.use('/api', routemanager)
 
 // testing
-app.get('/', (req, res) => {
+app.get('/', (_, res) => {
   res.json({message: 'hello world'})
 })
 
 // server
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`) 
+  console.log(`App is listening on port ${port}`) 
 })

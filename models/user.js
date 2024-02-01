@@ -16,7 +16,16 @@ const User = sequelize.define('user', {
     password: {
         type: Sequelize.TEXT,
         allowNull: false
-    }
+    },
+    otp: {
+        type: Sequelize.INTEGER,
+        allowNull: false
+    },
+    // verified: {
+    //     type: Sequelize.BOOLEAN,
+    //     defaultValue: false,
+    //     allowNull: true
+    // }
 });
 
 module.exports = { User }
