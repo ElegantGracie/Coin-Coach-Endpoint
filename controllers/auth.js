@@ -68,6 +68,33 @@ const signup = async (req, res) => {
     }
 };
 
+// To resend otp
+const resendOtp = async (req, res) => {
+    const id = req.user.userId;
+
+    if (!id) return res.status(401).json({message: "Unauthorized user"});
+
+    const user = await User.findOne({where: {userId: id}});
+
+    if(!user) return res.status(403).json({message: "User not found"});
+
+    try {
+        const otp = otpGenerator.generate(4, {lowerCaseAlphabets: false, upperCaseAlphabets: false, specialChars: false});
+
+        // Update user's otp
+        await user.update({otp});
+        await user.save();
+
+        await sendOtp(otp, user.userEmail);
+
+        return res.status(200).json({message: "Success", otp})
+
+    } catch (error) {
+        console.log(error);
+        return res.status(500).json({message: "Internal server error"})
+    }
+}
+
 // To verify email during signup
 const verifyOtp = async (req, res) => {
     const id = req.user.userId;
@@ -197,4 +224,4 @@ const resetPassword = async (req, res) => {
     }
 }
 
-module.exports = { signup, signin, verifyOtp, forgotPassword, resetPassword };
+module.exports = { signup, signin, verifyOtp, forgotPassword, resetPassword, resendOtp };
