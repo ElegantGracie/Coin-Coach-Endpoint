@@ -1,7 +1,7 @@
 const express = require('express')
 const { receiveMail } = require('../utils/sendMessage.js')
 const { signout } = require('../controllers/userControls.js')
-const { signup, signin, verifyOtp, forgotPassword, resetPassword } = require('../controllers/auth.js')
+const { signup, signin, verifyOtp, forgotPassword, resetPassword, resendOtp } = require('../controllers/auth.js')
 const { verifyAuth } = require('../middleware/auth.js')
 
 const routemanager = express.Router()
@@ -17,6 +17,8 @@ routemanager.post('/auth/signout', signout)
 
 // Authorized Authentication routes
 routemanager.post('/auth/verify-otp', verifyAuth, verifyOtp)
+
+routemanager.post("/auth/resend-otp", verifyAuth, resendOtp)
 
 routemanager.put('/auth/reset-password', verifyAuth, resetPassword)
 
