@@ -3,6 +3,7 @@ const { receiveMail } = require('../utils/sendMessage.js')
 const { signout } = require('../controllers/userControls.js')
 const { signup, signin, verifyOtp, forgotPassword, resetPassword, resendOtp } = require('../controllers/auth.js')
 const { verifyAuth } = require('../middleware/auth.js')
+const { getLevelVideos, getTopicVideos } = require('../controllers/videoControls.js')
 
 const routemanager = express.Router()
 
@@ -24,6 +25,11 @@ routemanager.put('/auth/reset-password', verifyAuth, resetPassword)
 
 // User routes
 routemanager.post('/user/contactus', receiveMail)
+
+// Video routes
+routemanager.get('/videos/', verifyAuth, getLevelVideos)
+
+routemanager.get('/videos/session', verifyAuth, getTopicVideos)
 
 // Authorized user routes
 

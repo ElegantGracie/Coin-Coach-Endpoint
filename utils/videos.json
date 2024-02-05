@@ -1,0 +1,172 @@
+[
+    {
+        "category": "beginner",
+        "categoryVids": [
+            {
+                "topic": "Introduction to crypto charts",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "sessions": [
+                    {
+                        "videoId": "0480c39467",
+                        "videoName": "Introduction",
+                        "videoUrl": "www.youtube.com"
+                    },
+                    {
+                        "videoId": "cfd8d467ef",
+                        "videoName": "Terminologies",
+                        "videoUrl": "www.youtube.com"
+                    },
+                    {
+                        "videoId": "db8f97af68",
+                        "videoName": "Charts",
+                        "videoUrl": "www.youtube.com"
+                    },
+                    {
+                        "videoId": "e64d5e860a",
+                        "videoName": "Bulls and bears",
+                        "videoUrl": "www.youtube.com"
+                    },
+                    {
+                        "videoId": "fdf0cfd4d1",
+                        "videoName": "Strategies",
+                        "videoUrl": "www.youtube.com"
+                    }
+                ]
+            },
+            {
+                "topic": "Understanding web3",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "sessions": [
+                    {
+                        "videoId": "88df6c21e7",
+                        "videoName": "Introduction",
+                        "videoUrl": "www.youtube.com"
+                    },
+                    {
+                        "videoId": "634483aadd",
+                        "videoName": "Terminologies",
+                        "videoUrl": "www.youtube.com"
+                    },
+                    {
+                        "videoId": "8941358bee",
+                        "videoName": "Blockchain",
+                        "videoUrl": "www.youtube.com"
+                    },
+                    {
+                        "videoId": "72f774a483",
+                        "videoName": "DApps",
+                        "videoUrl": "www.youtube.com"
+                    },
+                    {
+                        "videoId": "d24afd9e55",
+                        "videoName": "Wallets",
+                        "videoUrl": "www.youtube.com"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "intermediate",
+        "categoryVids": [
+            {
+                "topic": "Introduction to cryptocurrency",
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "sessions": [
+                    {
+                        "videoId": "cf7a9842d1",
+                        "videoName": "Introduction",
+                        "videoUrl": "www.youtube.com"
+                    },
+                    {
+                        "videoId": "1c46c7906c",
+                        "videoName": "Terminologies",
+                        "videoUrl": "www.youtube.com"
+                    },
+                    {
+                        "videoId": "a2d00b9795",
+                        "videoName": "Coins",
+                        "videoUrl": "www.youtube.com"
+                    },
+                    {
+                        "videoId": "23493790d8",
+                        "videoName": "Market caps",
+                        "videoUrl": "www.youtube.com"
+                    },
+                    {
+                        "videoId": "8b06e43704",
+                        "videoName": "Strategies",
+                        "videoUrl": "www.youtube.com"
+                    }
+                ]
+            },
+            {
+                "topic": "Understanding the market",
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "sessions": [
+                    {
+                        "videoId": "5641b4e5f2",
+                        "videoName": "Introduction",
+                        "videoUrl": "www.youtube.com"
+                    },
+                    {
+                        "videoId": "66c9b66321",
+                        "videoName": "Bullish market",
+                        "videoUrl": "www.youtube.com"
+                    },
+                    {
+                        "videoId": "41489da2f8",
+                        "videoName": "Bearish market",
+                        "videoUrl": "www.youtube.com"
+                    },
+                    {
+                        "videoId": "1ced65a59a",
+                        "videoName": "Reading market charts",
+                        "videoUrl": "www.youtube.com"
+                    },
+                    {
+                        "videoId": "ee3f390db7",
+                        "videoName": "Strategies",
+                        "videoUrl": "www.youtube.com"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "advanced",
+        "categoryVids": [
+            {
+                "topic": "Buying and selling cryptocurrency",
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "sessions": [
+                    {
+                        "videoId": "ea45429f47",
+                        "videoName": "Introduction",
+                        "videoUrl": "www.youtube.com"
+                    },
+                    {
+                        "videoId": "df9ca8dbe9",
+                        "videoName": "Opening a wallet",
+                        "videoUrl": "www.youtube.com"
+                    },
+                    {
+                        "videoId": "d15ebe9f47",
+                        "videoName": "Understanding and identifying potentials",
+                        "videoUrl": "www.youtube.com"
+                    },
+                    {
+                        "videoId": "39467fe764",
+                        "videoName": "First buy",
+                        "videoUrl": "www.youtube.com"
+                    },
+                    {
+                        "videoId": "7af68a068e",
+                        "videoName": "Making your way",
+                        "videoUrl": "www.youtube.com"
+                    }
+                ]
+            }
+        ]
+    }
+]
